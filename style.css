@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.top-banner,
+.display-banner,
+.footer-banner {
+    padding: 1% 5%;
+}
+
+.top-banner {
+    background-color: #FFF9F4;
+}
+
+.display-banner {
+    margin-top: 0px;
+}
+
+.card-img {
+    background-color: #F1F1F1;
+}
+
+.casual-shoes {
+    margin-top: 70px;
+}
+
+.formal-shoes {
+    margin-top: 70px;
+}
+
+.footer-banner {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.nav-link {
+    color: #3C3C3C;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 24;
+}
+
+.intro h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 70px;
+}
+
+.nike {
+    color: #FA804C;
+}
+
+.infinity {
+    color: #363958;
+}
+
+.intro h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.nike-inf {
+    margin-top: 80px;
+}
+
+.intro p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+    .intro p {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .icon {
+        width: 150px;
+        margin: 0 auto;
+    }
+
+    .about-text {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #first-intro {
+        order: 2;
+    }
+
+    #second-intro {
+        order: 1;
+    }
+
+    #about {
+        order: 2;
+        margin-top: 60px;
+    }
+
+    #about-logo {
+        order: 1;
+    }
+}
+
+.buy-now {
+    padding: 15px 15px;
+    margin-top: 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    background-color: #3D4FF3;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.btn:hover {
+    background-color: #3D4FF3 !important;
+    color: white !important;
+    text-decoration: none;
+}
+
+.card-body h4 {
+    color: #363958;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 28.13px;
+}
+
+.card-body p {
+    margin-top: 20px;
+
+    color: #3E3E3E;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.card h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FA804C;
+    margin: auto 0;
+}
+
+.card button {
+    margin: auto 0;
+}
+
+footer {
+    text-align: center;
+    font-size: 15px;
+}
